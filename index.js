@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 const prompt = inquirer.createPromptModule();
 
@@ -11,52 +12,62 @@ prompt([
     message: "What is the title of your project?",
     name: "title",
   },
-  {
-    type: "checkbox",
-    message: "What sections do you wish to include in your README?",
-    name: "sections",
-    choices: ["Description", "Installation Instructions", "Usage Information", "Contribution Guidelines", "Test Instructions"],
-  },
+  //   {
+  //     type: "checkbox",
+  //     message: "What sections do you wish to include in your README?",
+  //     name: "sections",
+  //     choices: ["Description", "Installation", "Usage", "Contribution", "Tests"],
+  //   },
   {
     type: "input",
     message: "Enter the Descrition content: ",
     name: "description",
-    when: (answers) => answers.sections.includes("Description"),
+    // when: (answers) => answers.sections.includes("Description"),
   },
   {
     type: "input",
     message: "Enter the Installation Instructions content: ",
     name: "installation",
-    when: (answers) => answers.sections.includes("Installation Instructions"),
+    // when: (answers) => answers.sections.includes("Installation Instructions"),
   },
   {
     type: "input",
     message: "Enter the Usage Information content: ",
     name: "usage",
-    when: (answers) => answers.sections.includes("Usage Information"),
+    // when: (answers) => answers.sections.includes("Usage Information"),
   },
   {
     type: "input",
-    message: "Enter the Usage Contribution Guidelines content: ",
+    message: "Enter the Contribution Guidelines content: ",
     name: "contribution",
-    when: (answers) => answers.sections.includes("Contribution Guidelines"),
+    // when: (answers) => answers.sections.includes("Contribution Guidelines"),
   },
   {
     type: "input",
-    message: "Enter the Usage Test Instructions content: ",
+    message: "Enter the Test Instructions content: ",
     name: "test",
-    when: (answers) => answers.sections.includes("Test Instructions"),
+    // when: (answers) => answers.sections.includes("Test Instructions"),
   },
   {
     type: "list",
     message: "What is your preferred method of communication?",
-    name: "preferred",
-    choices: ["MIT", "Educational Community License v2.0", "ISC", "Artistic License"],
+    name: "license",
+    choices: [
+      { name: "MIT", value: "MIT-yellow.svg" },
+      { name: "ISC", value: "ISC-blue.svg" },
+      { name: "Mozilla", value: "MPL_2.0-brightgreen.svg" },
+    ],
   },
-]);
+]).then((response) => {
+  writeToFile("newReadme.md", response);
+});
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, generateMarkdown(data), (err) => {
+    err ? console.error(err) : console.log("You're README has been generated to newReadme.md");
+  });
+}
 
 // TODO: Create a function to initialize app
 function init() {}
