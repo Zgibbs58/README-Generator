@@ -14,18 +14,16 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   const splitLicense = license.split("-")[0];
-  return license
-    ? `[https://opensource.org/licenses/${splitLicense.replace("_", "-")}](https://opensource.org/licenses/${splitLicense.replace("_", "-")})`
-    : "";
+  return license ? `[${splitLicense.replace("_", "-")}](https://opensource.org/licenses/${splitLicense.replace("_", "-")})` : "";
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  const splitLicense = license.split("-")[0];
   return license
     ? `## License
 
-  ${license.split("-", 1)}
   ${renderLicenseLink(license)}`
     : "";
 }
@@ -57,6 +55,9 @@ function generateMarkdown(data) {
   ${data.test}
 
   ${renderLicenseSection(data.license)}
+
+  ## Questions
+  [${data.gitName}](https://github.com/${data.gitName})
   `;
 }
 

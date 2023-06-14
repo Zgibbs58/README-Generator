@@ -66,6 +66,12 @@ prompt([
       { name: "EPL", value: "EPL_1.0-red.svg" },
     ],
   },
+  {
+    type: "input",
+    message: "What is your github username?",
+    name: "gitName",
+    default: "github",
+  },
 ]).then((response) => {
   writeToFile("newReadme.md", response);
 });

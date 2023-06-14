@@ -1,6 +1,6 @@
 
   # title
-  [![License: EPL_1.0](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
   
@@ -24,6 +24,8 @@
 
   ## License
 
-  EPL_1.0
-  [https://opensource.org/licenses/EPL-1.0](https://opensource.org/licenses/EPL-1.0)
+  [MIT](https://opensource.org/licenses/MIT)
+
+  ## Questions
+  [Zgibbs58](https://github.com/Zgibbs58)
   
