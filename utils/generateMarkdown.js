@@ -58,6 +58,11 @@ function generateMarkdown(data) {
 
   ## Questions
   [${data.gitName}](https://github.com/${data.gitName})
+
+  Email Address: ${data.email}
+
+  ${data.prefCom}
+  
   `;
 }
 

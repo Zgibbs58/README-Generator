@@ -72,6 +72,18 @@ prompt([
     name: "gitName",
     default: "github",
   },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
+    default: "email",
+  },
+  {
+    type: "input",
+    message: "Instructions for how to reach you: ",
+    name: "prefCom",
+    default: "email me at",
+  },
 ]).then((response) => {
   writeToFile("newReadme.md", response);
 });
