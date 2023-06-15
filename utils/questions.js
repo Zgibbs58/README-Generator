@@ -51,11 +51,12 @@ module.exports = [
     message: "What is your preferred method of communication?",
     name: "license",
     choices: [
-      { name: "MIT", value: "MIT-yellow.svg" },
-      { name: "ISC", value: "ISC-blue.svg" },
-      { name: "Mozilla", value: "MPL_2.0-brightgreen.svg" },
-      { name: "Apache", value: "Apache_2.0-blue.svg" },
-      { name: "EPL", value: "EPL_1.0-red.svg" },
+      { name: "MIT", value: "MIT" },
+      { name: "ISC", value: "ISC" },
+      { name: "Mozilla", value: "Mozilla" },
+      { name: "Apache", value: "Apache" },
+      { name: "EPL", value: "EPL" },
+      { name: "WTFPL", value: "WTFPL" },
     ],
   },
   {
