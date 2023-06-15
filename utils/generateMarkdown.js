@@ -10,19 +10,19 @@ const lincenseLinks = {
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   // licenseLinks[license][0] accesses the key that matches the license variable data and the first element of the array
-  return license ? `[![License](https://img.shields.io/badge/License-${lincenseLinks[license][0]})](${lincenseLinks[license][1]})` : "";
+  return license !== "none" ? `[![License](https://img.shields.io/badge/License-${lincenseLinks[license][0]})](${lincenseLinks[license][1]})` : "";
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return license ? `[${license}](https://opensource.org/licenses/${lincenseLinks[license][1]})` : "";
+  return license !== "none" ? `[${license}](https://opensource.org/licenses/${lincenseLinks[license][1]})` : "";
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return license
+  return license !== "none"
     ? `## License
 
   ${renderLicenseLink(license)}`
@@ -36,11 +36,9 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   
   ## Description
-  
   ${data.description}
 
   ## Table of Contents
-
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
@@ -48,30 +46,26 @@ function generateMarkdown(data) {
   - [Questions](#questions)
   
   ## Installation
-  
   ${data.installation}
 
   ## Usage
-  
   ${data.usage}
 
   ## Contribution
-  
   ${data.contribution}
 
   ## Tests
-  
   ${data.test}
 
   ${renderLicenseSection(data.license)}
 
   ## Questions
 
+  ${data.prefCom}.
+
   Github Account: [${data.gitName}](https://github.com/${data.gitName})
-
+  
   Email Address: [${data.email}](mailto:${data.email})
-
-  ${data.prefCom}
   
   `;
 }

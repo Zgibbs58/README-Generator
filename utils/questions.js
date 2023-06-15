@@ -57,6 +57,7 @@ module.exports = [
       { name: "Apache", value: "Apache" },
       { name: "EPL", value: "EPL" },
       { name: "WTFPL", value: "WTFPL" },
+      { name: "None", value: "none" },
     ],
   },
   {
