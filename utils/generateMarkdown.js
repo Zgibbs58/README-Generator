@@ -57,9 +57,10 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## Questions
-  [${data.gitName}](https://github.com/${data.gitName})
 
-  Email Address: ${data.email}
+  Github Account: [${data.gitName}](https://github.com/${data.gitName})
+
+  Email Address: [${data.email}](mailto:${data.email})
 
   ${data.prefCom}
   

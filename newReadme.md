@@ -1,6 +1,6 @@
 
-  # title
-  [![License: Apache_2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # try again
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
   
@@ -24,12 +24,13 @@
 
   ## License
 
-  [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
+  [MIT](https://opensource.org/licenses/MIT)
 
   ## Questions
-  [github](https://github.com/github)
 
-  Email Address: adsfsd@email.com
+  Github Account: [github](https://github.com/github)
+
+  Email Address: [zach@gmail.com](mailto:zach@gmail.com)
 
   email me at
   
