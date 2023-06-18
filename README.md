@@ -2,7 +2,7 @@
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
-  This command-line application generates a high-quality and professional newREADME.md file for your project repository. It utilizes the Node.js package inquirer to prompt you for information about your project and automatically generates the README.md file based on your input.
+  This command-line application generates a high-quality and professional README.md file for your project repository. It utilizes the Node.js package inquirer to prompt you for information about your project and automatically generates the README.md file based on your input. The generated README file is named newREADME.md in the root directory.
 
   ## Table of Contents
   - [Installation](#installation)
