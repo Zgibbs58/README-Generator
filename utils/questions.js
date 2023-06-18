@@ -49,7 +49,7 @@ module.exports = [
   },
   {
     type: "list",
-    message: "What is your preferred method of communication?",
+    message: "Enter the license for your project: ",
     name: "license",
     choices: [
       { name: "MIT", value: "MIT" },

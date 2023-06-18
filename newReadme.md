@@ -1,8 +1,8 @@
-# README Generator
-[![License](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+# Megan
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
-This is an app that generates a readme.
+Megan hates README's.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,26 +12,26 @@ This is an app that generates a readme.
 - [Questions](#questions)
   
 ## Installation
-Install by doing the following...
+Shove it up your ass.
 
 ## Usage
-Here is how to use the app.
+Shove it up his ass.
 
 ## License
 
-This application is covered under the [ISC](https://opensource.org/licenses/https://opensource.org/licenses/ISC) license.
+This application is covered under the [MIT](https://opensource.org/licenses/https://opensource.org/licenses/MIT) license.
 
 ## Contribution
-Contribution is easy.
+Contribute this to your ass.
 
 ## Tests
-Test it all.
+Test this on your ass.
 
 ## Questions
 
-You can email me..
+Grab your phone and shove it up her ass..
 
-Github Account: [myname](https://github.com/myname)
+Github Account: [BossASSBitch](https://github.com/BossASSBitch)
   
-Email Address: [mynam@gmail.com](mailto:mynam@gmail.com)
+Email Address: [bossbitch@gmail.com](mailto:bossbitch@gmail.com)
   
