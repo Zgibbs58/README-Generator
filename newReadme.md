@@ -1,39 +1,37 @@
-
-  # title
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README Generator
+[![License](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
   
-  ## Description
-  description
+## Description
+This is an app that generates a readme.
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
   
-  ## Installation
-  instal
+## Installation
+Install by doing the following...
 
-  ## Usage
-  usage
+## Usage
+Here is how to use the app.
 
-  ## Contribution
-  contribute
+## License
 
-  ## Tests
-  inst
+This application is covered under the [ISC](https://opensource.org/licenses/https://opensource.org/licenses/ISC) license.
 
-  ## License
+## Contribution
+Contribution is easy.
 
-  [MIT](https://opensource.org/licenses/https://opensource.org/licenses/MIT)
+## Tests
+Test it all.
 
-  ## Questions
+## Questions
 
-  email me at.
+You can email me..
 
-  Github Account: [github](https://github.com/github)
+Github Account: [myname](https://github.com/myname)
   
-  Email Address: [email](mailto:email)
-  
+Email Address: [mynam@gmail.com](mailto:mynam@gmail.com)
   
